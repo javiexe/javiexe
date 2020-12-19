@@ -1,0 +1,652 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    scroll-behavior: smooth;
+    margin: 0;
+    cursor: url(assets/svg/cursor.svg), auto;
+    font-size: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+a{
+    cursor: url(assets/svg/cursor2.svg), pointer;
+    height: 100%;
+    text-decoration: none;
+    z-index: 1;
+}
+
+
+
+#hover{
+    cursor: url(assets/svg/cursor2.svg), auto;
+}
+
+
+
+/* ESTILOS TIPOGRAFÍA */ 
+
+ul li{
+    font-size: 0.64rem;
+    font-weight: 300;
+    
+}
+
+ul li:hover{
+    transform: scale(1.03, 1.03);
+    transition: all 0.2s ease-in-out;
+    color: #8BFCBD;
+}
+
+.small{
+    line-height: 18px;
+    font-size: 0.64rem;
+    font-weight: 300;
+}
+
+.default{
+    line-height: 22px;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.big{
+    line-height: 26px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.bigbold{
+    line-height: 26px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h1 {
+    line-height: 41px;
+    font-size: 1.95rem;
+    font-weight: 500;
+}
+
+h2{
+    line-height: 37px;
+    font-size: 1.56rem;
+    font-weight: 500;
+}
+
+h3{
+    line-height: 35px;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+/* GAMA CROMATICA */ 
+
+.n50{
+    color: #F5F6FC;
+}
+
+.n200{
+    color: #BCBECD;
+}
+
+.n300{
+    color: #9497B0;
+}
+
+.n400{
+    color: #6C7093;
+}
+
+.n800{
+    color: #0B0B0F;
+}
+
+.g100{
+    color: #8BFCBD;
+}
+
+
+.b100{
+    color: #8C97FE;
+}
+
+.b200{
+    color: #5E6EFD;
+}
+
+.b300{
+    color: #3045FD;
+}
+
+.b500{
+    color: #0217D0;
+}
+
+
+
+
+.sticky{
+    padding-left: 13%;
+    z-index: 2;
+    background-color: #14151B;
+    position:sticky;
+    top:0
+}
+
+.logo{
+    width: 20%;
+    z-index: 3;
+}
+
+header{   
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+}
+
+.header_wrapper{
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.logotipo{
+    margin-left: -7px;
+}
+
+.isotipo{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    
+}
+
+.header_wrapper svg:hover{
+    transform: scale(1.03, 1.03);
+    transition: 0.2s ease-in-out;
+}
+
+footer{
+    background-color: #14151B;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+}
+
+.footer_wrapper{
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+.footer_wrapper ul{
+    justify-content: space-between;
+    padding: 23px 0;
+    display: flex;
+    list-style: none;
+}
+
+
+
+
+
+
+.home{
+    background-attachment: fixed;
+    background-image: url(assets/svg/triangulo.svg);
+    background-size: 35px;
+    padding: 60px 0 51px 0;
+    background-color: #0B0B0F;
+    height: 100vh;
+}
+
+.wrapper_home{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.holamundo{
+    padding: 0 15px;
+    margin: auto;
+    max-width: 630px;
+}
+
+.flexphone{
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+}
+
+.flexpc{
+    width: 33.33%;
+}
+
+.boton{
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0 100%, 0% 20%);
+    background: #3045FD;
+    padding: 75% 10% 25% 10%;
+}
+
+.boton2{
+    height: 48.50%;
+}
+
+.textbox{
+    margin: 0 0 -35px 0;
+}
+
+
+.boton:hover{
+    background: #5E6EFD;
+    z-index: 5;
+    transition: 0.2s ease-in-out;
+    /*transform: scale(1.03, 1.03);*/
+}
+
+
+
+.project{
+    background: #14151B;
+    width: 100%;
+}
+
+
+.project_wrapper{
+    justify-content: space-between;
+    padding: 60px 15px 80px;
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+.box_foto{
+    /*clip-path: polygon(0 15%, 40% 15%, 58% 0, 100% 0, 100% 100%, 0 100%);*/
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0 100%, 0% 20%);
+    /*padding-bottom: 100%;*/
+    background-image: url(assets/img/20WHEELS-superJumbo.jpg);
+    background-size: cover;
+}
+
+.top{
+    padding-top: 45px;
+}
+
+.topbig{
+    padding-top: 100px;
+}
+
+
+
+.line{
+    padding-bottom: 24px;
+    border-bottom: 1px solid #6C7093;
+}
+
+.about_animacion{
+    height: 35vw;
+    width: 35vw;
+    position: absolute;
+    right: 0;
+}
+
+.about{
+    background-attachment: fixed;
+    background-image: url(assets/svg/triangulo.svg);
+    background-size: 35px;
+    background-color: #0B0B0F;
+}
+
+.about_wrapper{
+    padding: 60px 15px 80px;
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+.contacto{
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background-color: #0217D0;
+}
+
+.contacto_animacion{
+    height: 35vw;
+    width: 35vw;
+    position: absolute;
+    left: 0;
+}
+
+.contacto_wrapper{
+    height: 100%;
+    padding: 60px 15px 250px 15px;
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+.contacto_frase{
+    margin-top: -30px;
+    position: absolute;
+}
+
+.email:hover{
+    transform: scale(1.03, 1.03);
+    transition: 0.2s ease-in-out;
+    color: #8BFCBD;
+}
+
+.contacto_redes{
+    display: flex;
+}
+
+.flexpc_redes{
+    width: 50%;
+}
+
+.boton_redes{
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0 100%, 0% 20%);
+    background: #3045FD;
+    padding: 77.33% 10% 22.66% 10%;
+}
+
+.boton_redes:hover{
+    transition: all 0.5s ease;
+    background: #5E6EFD;
+}
+
+.boton_text{
+    margin: 0 0 -35px 0;
+}
+
+.contacto_footer{
+    text-align: center;
+    padding: 0 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.contacto_lista{
+    min-width: 50%;
+}
+
+.contacto_lista ul{
+    justify-content: space-between;
+    padding: 23px 0;
+    display: flex;
+    list-style: none;
+}
+
+.contacto_footer svg {
+    padding-right: 20px;
+}
+
+
+
+@media screen and (min-width: 1000px){
+
+    ::-webkit-scrollbar{
+        width: 13px;
+      }
+    
+    ::-webkit-scrollbar-track{
+        background: #0B0B0F;
+      }
+       
+    ::-webkit-scrollbar-thumb{
+        background: #C3FDDD; 
+      }
+      
+    ::-webkit-scrollbar-thumb:hover{
+        background: #5DFBA3;
+      }
+    
+    ::-webkit-progress-value{
+        background: #5DFBA3;
+    }
+    
+
+    /* ESTILOS TIPOGRAFÍA */ 
+
+    ul li{
+        font-size: 0.8rem;
+        font-weight: 200;
+        
+    }
+
+    .small{
+        line-height: 22px;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    
+    .default{
+        line-height: 26px;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    
+    .big{
+        line-height: 35px;
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+    
+    .bigbold{
+        line-height: 35px;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    
+    h1 {
+        line-height: 3.8rem;
+        font-size: 3.8rem;
+        font-weight: 500;
+    }
+    
+    h2{
+        line-height: 3rem;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    
+    h3{
+        line-height: 2.5rem;
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+
+
+
+    header{
+        height: 80px;
+    }
+
+    .header_wrapper{
+        padding: 0 30px;
+    }
+
+    .header_wrapper svg{
+        padding-right: 0;
+        margin-top: 0;
+    }
+
+    .logotipo{
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+    
+    .isotipo{
+        width: initial;
+        height: initial;
+        visibility: visible;    
+    }
+
+    .sticky{
+        padding-left: 50%;
+    }
+
+    footer{
+        height: 80px;
+    }
+
+    .footer_wrapper{
+        padding: 0 30px;
+    }
+
+    .footer_wrapper ul{
+        padding: 30px 0;
+    }
+
+    .home{
+        background-size: 45px;
+        padding: 0;
+    }
+
+    .wrapper_home{
+        padding: 0 60px;
+        max-width: 1800px;
+        margin: 0 auto;
+        flex-direction: initial;
+        display: flex;
+    }
+
+    .holamundo{
+        margin: auto 0 auto 0;
+        max-width: 50%;
+    }
+
+    .boton{
+        padding-bottom: initial;
+        max-height: 100%;
+        width: 27.33vh;
+        height: 27.33vh;
+        padding: initial;
+    }
+
+    .boton2{
+        padding-bottom: initial;
+        max-height: 100%;
+        width: 27.33vh;
+        height: 27.33vh;
+        padding: initial;
+    }
+
+    .textbox{
+        padding: 78% 0 0 30px;
+    }
+
+    .flexpc{
+        max-height: 33.33%;
+        display: flex;
+        width: initial;
+    }
+
+    .flexphone{
+        bottom: 0;
+        margin-bottom: 80px;
+        right: 0;
+        position: absolute;
+        display: initial;
+    }
+
+    .project_wrapper{
+        padding: 100px 60px;
+        max-width: 1800px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .row{
+        padding-top: 0;
+        height: 100%;
+        width: 50%;
+        max-width: 772.81px;
+    }
+
+    .impar{
+        padding-bottom: 1px;
+        padding-right: 4%;
+    }
+
+    .par{
+        padding-bottom: 1px;
+        padding-top: 200px;
+        padding-left: 4%
+
+    }
+
+    .pardos{
+        padding-left: 4%;
+    }
+
+    .about_animacion{
+        height: 350px;
+        width: 350px;
+    }
+
+    .about_wrapper{
+        padding: 180px 60px 200px 60px;
+        max-width: 1800px;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    .about_content{
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .contacto{
+        height: 100%;
+    }
+
+    .contacto_animacion{
+        height: 350px;
+        width: 350px;
+    }
+
+    .contacto_wrapper{
+        padding: 180px 60px;
+        max-width: 1800px;
+        margin: 0 auto;
+        
+    }
+
+    .contacto_footer{
+        padding: 0 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contacto_footer svg {
+        padding-right: 0px;
+    }
+
+    .contacto_frase{
+        margin-top: 0;
+        position: initial;
+        max-width: 200px;
+    }
+    
+}
+
