@@ -14,16 +14,15 @@ img{
     display: initial;
 }
 
-.column{
-    width: 100%;
-}
-
-
 .triple_column{
     grid-template-areas: '.. MyArea';
     grid-template-columns: repeat(2, auto);
     grid-gap: 30px;
     display: grid;
+}
+
+.column{
+    width: 100%;
 }
 
 .marco_phone{
@@ -179,14 +178,43 @@ img{
 .wrapper_componentes{
     margin: 0 auto 0 auto;
     max-width: 1400px;
-    padding: 0px 80px 0px 80px;
+    padding: 60px 0 0 0;
 }
 
-
+#sub_wrapper{
+    padding: 0 20px;
+}
 
 .componentes_foto img{
     object-fit: cover;
     height: 100%;
+}
+
+/*PROTOTIPO*/
+
+.prototipo{
+    background-color: #EDE9E8;
+}
+
+#ticket{
+    border: 10px solid transparent;
+    z-index: 2;
+    margin-top: -20px;
+    border-radius: 0 0 20px 20px;
+}
+
+#top{
+    margin-top: 150px;
+}
+
+#top2{
+    margin-top: -135px;
+}
+
+/*ANIMACIONES*/
+
+.animaciones{
+    background-color: #EDE9E8;
 }
 
 @media screen and (min-width: 1000px){
@@ -258,9 +286,22 @@ img{
 
     .wrapper_componentes{
         display: flex;
+        margin: 0 auto 0 auto;
+        max-width: 1400px;
+        padding: 0px 80px 0px 80px;
     }
 
     #sub_wrapper{
         margin: auto 0;
+    }
+
+    /*PROTOTIPO*/
+    
+    #top{
+        margin-top: -100px;
+    }
+
+    #top2{
+        margin-top: 0;
     }
 }
