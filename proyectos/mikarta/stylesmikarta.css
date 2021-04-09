@@ -30,6 +30,10 @@ img{
     border-radius: 20px;
 }
 
+#off{
+    background-color: transparent;
+}
+
 /*GAMA*/
 
 .mo600{
@@ -209,6 +213,22 @@ img{
 
 #top2{
     margin-top: -135px;
+}
+
+/*DESKTOP*/
+
+.desktop{
+    background: linear-gradient(0deg, #EDE9E8 50%, #992E0A 50%);
+}
+
+#derecha{
+    padding-right: 0;
+}
+
+/*SCREEN*/
+
+.screen{
+    background-color:#601D06;
 }
 
 /*ANIMACIONES*/
