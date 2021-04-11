@@ -17,7 +17,7 @@ img{
 .triple_column{
     grid-template-areas: '.. MyArea';
     grid-template-columns: repeat(2, auto);
-    grid-gap: 30px;
+    grid-gap: 20px;
     display: grid;
 }
 
