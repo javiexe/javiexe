@@ -30,6 +30,12 @@ img{
     border-radius: 20px;
 }
 
+.aspect_ratio{
+    background-image: url(./img/proto_sopa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #off{
     background-color: transparent;
 }
@@ -171,6 +177,13 @@ img{
     margin-top: 100px;
 }
 
+.wireframes_dos{
+    background-size: 250px;
+    background-color: #EDE9E8;
+    background-repeat: no-repeat;
+    background-image: url(./svg/wireframe_icon2.svg);
+    background-position: bottom right;
+}
 
 /*COMPONENTES*/
 
@@ -201,7 +214,7 @@ img{
 }
 
 #ticket{
-    border: 10px solid transparent;
+    border: 7px solid transparent;
     z-index: 2;
     margin-top: -20px;
     border-radius: 0 0 20px 20px;
@@ -316,6 +329,10 @@ img{
     }
 
     /*PROTOTIPO*/
+
+    #ticket{
+        border: 10px solid transparent;
+    }
     
     #top{
         margin-top: -100px;
@@ -323,5 +340,12 @@ img{
 
     #top2{
         margin-top: 0;
+    }
+
+    /*SCREEN*/
+
+    .screen img {
+        max-width: 1920px;
+        max-height: 1352px;
     }
 }
