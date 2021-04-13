@@ -26,7 +26,12 @@ img{
 }
 
 .marco_phone{
-    border: 5px solid #14151B;
+    border: 0.7vh solid #14151B;
+    border-radius: 20px;
+}
+
+.lottie-player .animation{
+    border: 0.7vh solid #14151B;
     border-radius: 20px;
 }
 
@@ -38,6 +43,11 @@ img{
 
 #off{
     background-color: transparent;
+}
+
+.aqui:hover{
+    transition: 0.3s;
+    color: #01FA6F;
 }
 
 /*GAMA*/
@@ -253,18 +263,15 @@ img{
 /*FIGMA*/
 
 .figma{
-    margin-bottom: -54px;
-    background-color: #F15B28;
+    height: 0;
 }
 
 .figma_wrapper{
-    width: 100%;
+    visibility: hidden;
 }
 
 .figma_proto{
-    height: 105vh;
-    border: none;
-    width: 100%;
+    visibility: hidden;
 
 }
 
@@ -295,6 +302,9 @@ img{
         border: 10px solid #14151B;
     }
 
+    lottie-player .animation{
+        border: 10px solid #14151B;
+    }
 
 
     /*PORTADA*/
@@ -372,5 +382,27 @@ img{
     .screen img {
         max-width: 1920px;
         max-height: 1352px;
+    }
+
+    /*FIGMA*/
+
+    .figma{
+        height: initial;
+        visibility: initial;
+        margin-bottom: -54px;
+        background-color: #F15B28;
+    }
+
+    .figma_wrapper{
+        visibility: initial;
+        width: 100%;
+    }
+
+    .figma_proto{
+        visibility: initial;
+        height: 105vh;
+        border: none;
+        width: 100%;
+
     }
 }
