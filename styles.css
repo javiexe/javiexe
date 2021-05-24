@@ -259,7 +259,7 @@ footer{
     background: url(./assets/svg/flecha-hover.svg) center center no-repeat;
     margin-left: 0.4rem;
     width: 0.5rem;
-    height: 1.6rem;
+    height: 1rem;
     margin-top: 0.25rem;
     display: inline-block;
     position: absolute;
@@ -282,7 +282,7 @@ footer{
     background: url(./assets/svg/flecha-hoverwhite.svg) center center no-repeat;
     margin-left: 0.4rem;
     width: 0.5rem;
-    height: 1.6rem;
+    height: 1rem;
     margin-top: 0.25rem;
     display: inline-block;
     position: absolute;
@@ -569,7 +569,6 @@ footer{
 
     .wrapper_home{
         padding: 0 60px;
-        max-width: 1800px;
         margin: 0 auto;
         flex-direction: initial;
         display: flex;
@@ -594,6 +593,14 @@ footer{
         width: 27.33vh;
         height: 27.33vh;
         padding: initial;
+    }
+
+    .boton3::after{
+        height: 1.6rem;
+    }
+
+    .boton4::after{
+        height: 1.6rem;
     }
 
     .textbox{
