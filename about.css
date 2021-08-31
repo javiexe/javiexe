@@ -1,9 +1,24 @@
 .conoceme_wrapper{
+    margin: 0 auto;
+    height: 400px;
     padding: 0 0 0 20px;
     display: flex;
-    justify-content: space-between;
 }
 
 .conoceme{
+    z-index: 2;
     margin: auto 0;
+}
+
+.conoceme_animacion{
+    width: 488px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+}
+
+@media screen and (min-width: 1000px) {
+    .conoceme_wrapper{
+        padding: 0 0 0 80px;
+    }
 }

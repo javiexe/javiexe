@@ -54,6 +54,12 @@ ul li:hover{
     font-weight: 300;
 }
 
+.defaultbold{
+    line-height: 22px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
 .big{
     line-height: 26px;
     font-size: 1rem;
@@ -487,6 +493,12 @@ footer{
         line-height: 26px;
         font-size: 1rem;
         font-weight: 300;
+    }
+
+    .defaultbold{
+        line-height: 26px;
+        font-size: 1rem;
+        font-weight: 500;
     }
     
     .big{
