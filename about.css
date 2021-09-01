@@ -17,8 +17,55 @@
     right: 0;
 }
 
+
+
+#ancho{
+    max-width: 630px;
+}
+
+#espacio{
+    padding-top: 50px;
+}
+
+
+
+.skillbox{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.skill{
+    background: #323343;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.skill_level{
+    background: #3045FD;
+    width: 50%;
+    height: 10px;
+}
+.about_content{
+    width: 100%;
+}
+
+
+
 @media screen and (min-width: 1000px) {
     .conoceme_wrapper{
         padding: 0 0 0 80px;
+    }
+
+    .left{
+        padding-left: 4%;
+    }
+
+    .columna{
+        width: 100%;
+    }
+
+    #ancho{
+        max-width: 1400px;
     }
 }
