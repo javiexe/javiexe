@@ -93,6 +93,14 @@ img{
     }
 
 
+.alierre{
+    color: #F9B69F;
+}
+
+.alierre:hover{
+    color: #FDE2D9;
+}
+
 /*INTRO*/
 
 .intro{
