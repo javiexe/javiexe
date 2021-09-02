@@ -42,10 +42,12 @@
 }
 
 .skill_level{
+    transition: width 1s ease-in-out;
     background: #3045FD;
     width: 50%;
     height: 10px;
 }
+
 .about_content{
     width: 100%;
 }
