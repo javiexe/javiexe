@@ -1,3 +1,5 @@
+/*TEXTO CONOCEME*/
+
 .conoceme_wrapper{
     margin: 0 auto;
     height: 400px;
@@ -17,7 +19,7 @@
     right: 0;
 }
 
-
+/*ARREGLOS*/
 
 #ancho{
     max-width: 630px;
@@ -27,7 +29,7 @@
     padding-top: 50px;
 }
 
-
+/*HABILIDADES*/
 
 .skillbox{
     box-sizing: border-box;
@@ -52,6 +54,14 @@
     width: 100%;
 }
 
+/*AFICIONES*/
+
+.aficiones{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
 
 @media screen and (min-width: 1000px) {
@@ -70,4 +80,14 @@
     #ancho{
         max-width: 1400px;
     }
+
+    /*AFICIONES*/
+
+    .triple_column{
+        grid-template-areas: 'myArea . .';
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 60px;
+        display: grid;
+    }
+
 }
