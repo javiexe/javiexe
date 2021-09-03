@@ -114,6 +114,10 @@ img{
     background-color: #EDE9E8;
 }
 
+#topcero{
+    padding-top: 0;
+}
+
 /*ESTILOS*/
 
 .estilos{
@@ -232,9 +236,9 @@ img{
 }
 
 #ticket{
-    border: 5px solid transparent;
+    border: 6px solid transparent;
     z-index: 2;
-    margin-top: -20px;
+    margin-top: -13px;
     border-radius: 0 0 20px 20px;
 }
 
@@ -369,6 +373,7 @@ img{
 
     #ticket{
         border: 10px solid transparent;
+        margin-top: -21px;
     }
     
     #top{
