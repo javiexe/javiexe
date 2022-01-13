@@ -6,6 +6,12 @@ img{
 
 .wrapper_section{
     margin: 0 auto;
+    max-width: 650px;
+    padding: 60px 20px 90px 20px;
+}
+
+.wrapper_sangre{
+    margin: 0 auto;
     max-width: 1400px;
     padding: 60px 20px 90px 20px;
 }
@@ -292,6 +298,11 @@ img{
 
     /*GENERALES*/
     .wrapper_section{
+        max-width: 1400px;
+        padding: 150px 80px 150px 80px;
+    }
+
+    .wrapper_sangre{
         padding: 150px 80px 150px 80px;
     }
 

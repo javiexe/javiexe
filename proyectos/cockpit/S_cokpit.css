@@ -1,0 +1,64 @@
+/*VIDEO*/
+
+.video{
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+    padding-bottom: 42%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*FONDOS*/
+
+.portada_cockpit{
+    background-color: #323343;
+}
+
+.factores{
+    background-color: #4288D3;
+}
+
+.bg-listadestacado{
+    background-color: #E4E5EB;
+}
+
+/*LISTA*/
+
+
+
+
+@media screen and (min-width: 1000px){
+
+
+    /*LISTA*/
+    .contenedor_lista{
+        max-width: 1400px;
+        padding: 80px;
+        margin: 0 auto;
+    }
+
+    .contenedor_lista ul{
+        display: flex;
+        list-style: none;
+    }
+
+    .contenedor_lista ul li{
+        margin: 20px 15px;
+    }
+
+    .contenedor_lista ul li:hover{
+        transform: none;
+        transition: none;
+        color: none;
+    }
+}
