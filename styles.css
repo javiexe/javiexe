@@ -1,3 +1,10 @@
+/*TEXTO DEGRADADO*/
+
+.TEXTODEGRADADO{
+background: -webkit-linear-gradient(
+197deg,var(#FB0554) 40%,var(#523DD4));
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,18 +35,12 @@ a{
 
 
 
-/* ESTILOS TIPOGRAFÍA */ 
-
-ul li{
-    font-size: 0.64rem;
-    font-weight: 300;
-    
-}
+/* ESTILOS TIPOGRAFÍA */
 
 ul li:hover{
     transform: scale(1.03, 1.03);
     transition: all 0.2s ease-in-out;
-    color: #8BFCBD;
+    color: #F5F6FC;
 }
 
 .small{
@@ -75,19 +76,19 @@ ul li:hover{
 h1 {
     line-height: 41px;
     font-size: 1.95rem;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 h2{
     line-height: 37px;
     font-size: 1.56rem;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 h3{
     line-height: 35px;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 
@@ -141,53 +142,9 @@ h3{
 }
 
 
-
-
-.sticky{
-    padding-left: 13%;
-    z-index: 2;
-    background-color: #14151B;
-    position:sticky;
-    top:0
-}
-
-.logo{
-    width: 20%;
-    z-index: 3;
-}
-
-header{   
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 60px;
-    position: fixed;
-}
-
-.header_wrapper{
-    padding: 0 15px;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.logotipo{
-    margin-left: -7px;
-}
-
-.isotipo{
-    width: 0;
-    height: 0;
-    visibility: hidden;
-    
-}
-
-.header_wrapper svg:hover{
-    transform: scale(1.03, 1.03);
-    transition: 0.2s ease-in-out;
-}
+/*FOOTER*/
 
 footer{
-    background-color: #14151B;
     width: 100%;
     height: 60px;
     position: fixed;
@@ -208,8 +165,88 @@ footer{
     list-style: none;
 }
 
+.footer_wrapper ul li{
+    font-size: 0.64rem;
+    font-weight: 300;
+}
 
 
+/*HEADER DESPLEGABLE*/
+
+header{
+    transition: top 0.3s ease-in-out;
+    z-index: 7;
+    width: 100%;
+    position: fixed;
+}
+
+.header_wrapper{
+    height: 60px;
+    margin: 0 15px;
+    padding: 7px 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.isotipo{
+    display: none;
+}
+
+.burger{
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    padding: 15px 50px 50px 50px;
+    top: 0;
+    left: 100%;
+    position: fixed;
+    width: 80vw;
+    height: 100%;
+    transition: left .3s ease-in-out;
+    background-color: #3045FD;
+}
+
+.menu_close{
+    margin-right: 15px;
+    position: absolute;
+    right: 0;
+}
+
+.menu_lista{
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+
+.menu_logo{
+    position: absolute;
+    bottom: 0;
+    width: 80vw;
+    margin-left: -50px;
+}
+
+.menu_logo svg{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu-open .menu{
+    left: 20%;
+}
+
+.menu_lista li{
+    color: #F5F6FC;
+    line-height: 80px;
+    font-size: 1.25rem;
+    font-weight: 300;
+
+}
+
+
+/*FIN MENU DESPLEGABLE*/
 
 
 
@@ -477,12 +514,6 @@ footer{
 
     /* ESTILOS TIPOGRAFÍA */ 
 
-    ul li{
-        font-size: 0.8rem;
-        font-weight: 200;
-        
-    }
-
     .small{
         line-height: 22px;
         font-size: 0.8rem;
@@ -516,52 +547,73 @@ footer{
     h1 {
         line-height: 3.8rem;
         font-size: 3.8rem;
-        font-weight: 500;
+        font-weight: 300;
     }
     
     h2{
         line-height: 3rem;
         font-size: 3rem;
-        font-weight: 500;
+        font-weight: 300;
     }
     
     h3{
         line-height: 2.5rem;
         font-size: 2.5rem;
-        font-weight: 500;
+        font-weight: 300;
     }
 
 
+    /*HEADER DESPLEGABLE*/
 
-
-    header{
-        height: 80px;
+    .header_wrapper a{
+        height: 37px;
     }
 
-    .header_wrapper{
-        padding: 0 30px;
+    .menu_close{
+        display: none;
     }
 
-    .header_wrapper svg{
-        padding-right: 0;
-        margin-top: 0;
+    .menu_logo{
+        display: none;
+    }
+
+    .burger{
+        display: none;
+    }
+
+    .menu{
+        position: relative;
+        width: initial;
+        background-color: transparent;
+        left: 0;
+        padding: 0;
+        height: initial;
+    }
+
+    .menu_lista{
+        justify-content: space-between;
+        min-width: 650px;
+        margin: 0;
+        display: flex;
+    }
+
+    .menu_lista li{
+        font-size: 1rem;
+        font-weight: 300;
+    
     }
 
     .logotipo{
-        width: 0;
-        height: 0;
-        visibility: hidden;
-    }
-    
-    .isotipo{
-        width: initial;
-        height: initial;
-        visibility: visible;    
+        display: none;
     }
 
-    .sticky{
-        padding-left: 50%;
+    .isotipo{
+        display: initial;
     }
+
+    /*FIN HEADER DESPLEGALE*/
+
+
 
     footer{
         height: 80px;
@@ -573,6 +625,10 @@ footer{
 
     .footer_wrapper ul{
         padding: 30px 0;
+    }
+
+    .footer_wrapper ul li{
+        font-size: 0.8rem;
     }
 
     .home{
