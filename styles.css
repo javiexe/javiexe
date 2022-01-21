@@ -141,6 +141,13 @@ h3{
     color: #0217D0;
 }
 
+.degradado{
+    background: -webkit-linear-gradient(-40deg,#5E6EFD 40%,#5DFBA3);
+    background: -webkit-linear-gradient(-40deg,var(#5E6EFD) 40%,var(#5DFBA3));
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+}
+
 
 /*FOOTER*/
 
@@ -271,15 +278,6 @@ header{
     margin: auto 0 60px 0;
     max-width: 630px;
 }
-
-/*
-.holamundo h2{
-    background: -webkit-linear-gradient(-40deg,#5E6EFD 40%,#5DFBA3);
-    background: -webkit-linear-gradient(-40deg,var(#5E6EFD) 40%,var(#5DFBA3));
-    -webkit-background-clip: text;  
-    -webkit-text-fill-color: transparent;
-}
-*/
 
 .flexphone{
     display: none;
