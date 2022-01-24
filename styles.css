@@ -1,3 +1,5 @@
+
+
 /*TEXTO DEGRADADO*/
 
 .TEXTODEGRADADO{
@@ -249,7 +251,7 @@ header{
     left: 0;
 }
 
-.menu_lista li{
+.menu_lista li a{
     color: #F5F6FC;
     line-height: 80px;
     font-size: 1.25rem;
@@ -600,6 +602,7 @@ header{
     }
 
     .menu{
+        background-image: none;
         position: relative;
         width: initial;
         background-color: transparent;
@@ -615,7 +618,7 @@ header{
         display: flex;
     }
 
-    .menu_lista li{
+    .menu_lista li a{
         font-size: 1rem;
         font-weight: 300;
     
