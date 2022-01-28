@@ -18,10 +18,33 @@
 }
 
 
+
+
 /*FONDOS*/
 
 .portada_cockpit{
-    background-color: #323343;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../assets/img/s-cockpit-portada.png);
+}
+
+.portada_cockpit::before{
+    height: 80vh;
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.portada_cockpit_content{
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 15px;
 }
 
 .factores{
@@ -60,5 +83,23 @@
         transform: none;
         transition: none;
         color: none;
+    }
+
+
+
+    /*FONDOS*/
+
+    .portada_cockpit{
+        height: 80vh;
+        background-size: cover;
+        background-image: url(../../assets/img/s-cockpit-portada.png);
+    }
+
+    .portada_cockpit_content{
+        display: flex;
+        height: 100%;
+        padding: 0 80px 100px 80px;
+        max-width: 1400px;
+        align-items: flex-end;
     }
 }

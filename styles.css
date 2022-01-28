@@ -118,6 +118,18 @@ h3{
     color: #6C7093;
 }
 
+.n500{
+    color: #4F526B;
+}
+
+.n600{
+    color: #323343;
+}
+
+.n700{
+    color: #14151B;
+}
+
 .n800{
     color: #0B0B0F;
 }
@@ -389,6 +401,11 @@ header{
     background-size: cover;
 }
 
+.topsmall{
+    padding-top: 20px;
+}
+
+
 .top{
     padding-top: 45px;
 }
@@ -419,7 +436,7 @@ header{
 }
 
 .about_wrapper{
-    padding: 60px 15px 80px;
+    padding: 100px 15px 100px;
     max-width: 630px;
     margin: 0 auto;
 }
@@ -440,7 +457,7 @@ header{
 
 .contacto_wrapper{
     height: 100%;
-    padding: 60px 15px 250px 15px;
+    padding: 100px 15px 190px 15px;
     max-width: 630px;
     margin: 0 auto;
 }
@@ -780,7 +797,7 @@ header{
     }
 
     .contacto_footer{
-        padding: 0 30px;
+        padding: 0 75px;
         display: flex;
         align-items: center;
         justify-content: space-between;
