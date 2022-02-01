@@ -26,7 +26,7 @@
     height: 80vh;
     background-position: center;
     background-size: cover;
-    background-image: url(../../assets/img/s-cockpit-portada.png);
+    background-image: url(../../assets/img/s-cockpit-portada2.png);
 }
 
 .portada_cockpit::before{
@@ -47,10 +47,6 @@
     padding: 15px;
 }
 
-.factores{
-    background-color: #4288D3;
-}
-
 .bg-listadestacado{
     background-color: #E4E5EB;
 }
@@ -63,37 +59,8 @@
 @media screen and (min-width: 1000px){
 
 
-    /*LISTA*/
-    .contenedor_lista{
-        max-width: 1400px;
-        padding: 80px;
-        margin: 0 auto;
-    }
-
-    .contenedor_lista ul{
-        display: flex;
-        list-style: none;
-    }
-
-    .contenedor_lista ul li{
-        margin: 20px 15px;
-    }
-
-    .contenedor_lista ul li:hover{
-        transform: none;
-        transition: none;
-        color: none;
-    }
-
-
 
     /*FONDOS*/
-
-    .portada_cockpit{
-        height: 80vh;
-        background-size: cover;
-        background-image: url(../../assets/img/s-cockpit-portada.png);
-    }
 
     .portada_cockpit_content{
         display: flex;
