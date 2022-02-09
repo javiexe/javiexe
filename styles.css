@@ -39,16 +39,20 @@ a{
 
 /* ESTILOS TIPOGRAFÍA */
 
-ul li:hover{
-    transform: scale(1.03, 1.03);
-    transition: all 0.2s ease-in-out;
-    color: #F5F6FC;
+ul li{
+    list-style: none;
 }
 
 .small{
     line-height: 18px;
     font-size: 0.64rem;
     font-weight: 300;
+}
+
+.smallbold{
+    line-height: 18px;
+    font-size: 0.64rem;
+    font-weight: 500;
 }
 
 .default{
@@ -550,6 +554,12 @@ header{
         line-height: 22px;
         font-size: 0.8rem;
         font-weight: 300;
+    }
+
+    .smallbold{
+        line-height: 22px;
+        font-size: 0.8rem;
+        font-weight: 500;
     }
     
     .default{

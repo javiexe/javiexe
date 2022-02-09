@@ -1,0 +1,101 @@
+/*CLASES GENERALES*/
+.wrapper_proyecto{
+    max-width: 670px;
+    margin: 0 auto;
+    padding: 50px 35px;
+
+}
+
+/*MARGENES*/
+
+.marg_small{
+ margin-bottom: 5px;
+}
+
+.marg_regular{
+ margin-bottom: 10px;
+}
+
+
+
+/*PORTADA_PHONE*/
+
+.portada img{
+    height: 65vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*TITULO PHONE*/
+
+.titulo_wrapper{
+    margin: 0 auto;
+    max-width: 670px;
+}
+
+.titulo_content{
+    margin: 0 10px;
+    padding: 25px;
+    position: relative;
+    margin-top: -80px;
+    background-color: #F5F6FC;
+}
+
+
+/*LEYENDA E INTRODUCCION*/
+
+.leyenda ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1000px){
+
+/*CLASES GENERALES*/
+.wrapper_proyecto{
+    max-width: 1400px;
+    padding: 70px;
+}
+
+
+
+
+/*TITULO_PC*/
+    .titulo_wrapper{
+        margin-top: -80px;
+        max-width: 1440px;
+    }
+
+    .titulo_content{
+        margin: 0 20px;
+        padding: 50px;
+    }
+
+/*LEYENDA E INTRODUCCION*/
+
+
+    .intro_leyenda{
+        grid-template-columns: 250px 1fr;
+        display: grid;
+        grid-gap: 120px;
+    }
+
+    .leyenda ul{
+        display: inline-table;
+    }
+
+}
