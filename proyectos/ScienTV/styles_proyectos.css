@@ -3,7 +3,14 @@
     max-width: 670px;
     margin: 0 auto;
     padding: 50px 35px;
+}
 
+img{
+    width: 100%;
+}
+
+#video_sangre{
+    padding: 0px;
 }
 
 /*MARGENES*/
@@ -45,14 +52,28 @@
 
 /*LEYENDA E INTRODUCCION*/
 
+.intro_leyenda{
+    display: grid;
+    grid-gap: 100px;
+}
+
 .leyenda ul{
-    display: flex;
-    flex-wrap: wrap;
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 
 
 
+
+@media screen and (min-width: 500px){
+
+
+    .leyenda ul{
+        grid-template-columns: auto auto auto auto;
+    }
+}
 
 
 
@@ -71,6 +92,20 @@
     padding: 70px;
 }
 
+#video_sangre{
+    padding: initial;
+}
+
+/*MARGENES*/
+
+    .marg_small{
+    margin-bottom: 5px;
+   }
+   
+   .marg_regular{
+    margin-bottom: 20px;
+   }
+   
 
 
 

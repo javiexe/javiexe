@@ -44,37 +44,37 @@ ul li{
 }
 
 .small{
-    line-height: 18px;
+    line-height: 20px;
     font-size: 0.64rem;
     font-weight: 300;
 }
 
 .smallbold{
-    line-height: 18px;
+    line-height: 20px;
     font-size: 0.64rem;
     font-weight: 500;
 }
 
 .default{
-    line-height: 22px;
+    line-height: 26px;
     font-size: 0.8rem;
     font-weight: 300;
 }
 
 .defaultbold{
-    line-height: 22px;
+    line-height: 26px;
     font-size: 0.8rem;
     font-weight: 500;
 }
 
 .big{
-    line-height: 26px;
+    line-height: 30px;
     font-size: 1rem;
     font-weight: 300;
 }
 
 .bigbold{
-    line-height: 26px;
+    line-height: 30px;
     font-size: 1rem;
     font-weight: 500;
 }
@@ -551,37 +551,37 @@ header{
     /* ESTILOS TIPOGRAFÍA */ 
 
     .small{
-        line-height: 22px;
+        line-height: 24px;
         font-size: 0.8rem;
         font-weight: 300;
     }
 
     .smallbold{
-        line-height: 22px;
+        line-height: 24px;
         font-size: 0.8rem;
         font-weight: 500;
     }
     
     .default{
-        line-height: 26px;
+        line-height: 30px;
         font-size: 1rem;
         font-weight: 300;
     }
 
     .defaultbold{
-        line-height: 26px;
+        line-height: 30px;
         font-size: 1rem;
         font-weight: 500;
     }
     
     .big{
-        line-height: 35px;
+        line-height: 38px;
         font-size: 1.25rem;
         font-weight: 300;
     }
     
     .bigbold{
-        line-height: 35px;
+        line-height: 38px;
         font-size: 1.25rem;
         font-weight: 500;
     }
