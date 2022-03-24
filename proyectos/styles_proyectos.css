@@ -17,7 +17,22 @@ video{
     padding: 0px;
 }
 
+.video{
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+    padding-bottom: 42%;
+    height: 0;
+    overflow: hidden;
+}
 
+.video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /*MARGENES*/
 

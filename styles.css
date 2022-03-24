@@ -405,6 +405,10 @@ header{
     background-size: cover;
 }
 
+.proyecto_hover{
+    visibility: hidden;
+}
+
 .topsmall{
     padding-top: 20px;
 }
@@ -750,6 +754,10 @@ header{
         flex-wrap: wrap;
     }
     
+    .proyecto_hover{
+        visibility: inherit;
+    }
+
     .row{
         padding-top: 0;
         height: 100%;
